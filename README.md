@@ -30,12 +30,14 @@ Then, we predict the coordinates of apoptosis.
 
 Here, we provide the confidence level at which we wish to discover apoptotic events as well as the frames to analyze (f1 is the start frame and f2 is the last frame).
 
-> #Process time lapses with ades.predict
-> path = '/content/11_ori.tif'  # path of video in tif format
-> f1 = 1
-> f2 = 100  #range of frames to process
-> threshold = 0.95
-> predictions, movie = ADES.ades.predict(path,threshold,f1,f2) #process movies and predict apoptotic coordinates
+```
+#Process time lapses with ades.predict
+path = '/content/11_ori.tif'  # path of video in tif format
+f1 = 1
+f2 = 100  #range of frames to process
+threshold = 0.95
+predictions, movie = ADES.ades.predict(path,threshold,f1,f2) #process movies and predict apoptotic coordinates
+```
 
 **Save output video**
 
