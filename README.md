@@ -56,6 +56,8 @@ for i in  range(0,nF):
 writer.writeFrame((movie[i, :, :, :]))
 writer.close()
 ```
+The results are as follows:
+![alt text](https://github.com/mariaclaudianicolai/ADeS/blob/main/results_example.png?raw=true)
 
 **Visualizing spatial-temporal distribution of apototic events**
 To do
