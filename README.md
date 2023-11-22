@@ -34,7 +34,7 @@ Here, we provide the confidence level at which we wish to discover apoptotic eve
 
 ```
 #Process time lapses with ades.predict
-path = '/content/11_ori.tif'  # path of video in tif format
+path = '/content/file.tif'  # path of video in tif format
 f1 = 1
 f2 = 100  #range of frames to process
 threshold = 0.95
