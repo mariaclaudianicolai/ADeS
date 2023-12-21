@@ -60,4 +60,5 @@ The results are as follows:
 ![alt text](https://github.com/mariaclaudianicolai/ADeS/blob/main/results_example.png?raw=true)
 
 **Visualizing spatial-temporal distribution of apoptotic events**
-To do
+
+upcoming update
